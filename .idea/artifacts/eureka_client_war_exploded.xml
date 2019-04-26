@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="eureka_client:war exploded">
+    <output-path>$PROJECT_DIR$/eureka_client/target/eureka_client</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>eureka_client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="eureka_client" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/eureka_client/target/eureka_client/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="eureka_client/web/Web" />
+    </root>
+  </artifact>
+</component>

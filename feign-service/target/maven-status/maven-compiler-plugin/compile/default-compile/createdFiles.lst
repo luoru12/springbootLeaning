@@ -1,0 +1,4 @@
+com\york\feignservice\HiController.class
+com\york\feignservice\FeignServiceImpl.class
+com\york\feignservice\FeignServiceApplication.class
+com\york\feignservice\FeignService.class
